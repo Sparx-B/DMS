@@ -1,0 +1,112 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #246ff1;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+
+section{
+  position:relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 400px;
+  padding: 100px 20vw;
+}
+
+.bg1{
+background: #0437f2;
+}
+
+
+.curve{
+  position: absolute;
+  width:100%;
+ height:250px;
+  bottom: 0;
+  text-align: center;
+}
+
+.curve::before{
+content: " ";
+display: block;
+position: absolute;
+border-radius: 100% 50%;
+width: 55%;
+height: 100%;
+transform: translate(89%, 58%);
+background-color: #080808 ;
+}
+
+.curve::after{
+content: " ";
+display: block;
+position: absolute;
+border-radius: 100% 50%;
+width:55%;
+height: 100%;
+background-color: #0437f2;
+transform: translate(-0.25%, 39%);
+z-index: -1;
+}
+
+
+.navbar{
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+font-size: large;
+background-color: whitesmoke;
+
+}
+
+
+.btn{
+  background-color:#0437f2;
+  outline: white;
+  
+}
+.btn-primary:hover{
+  color: black;
+  background-color:whitesmoke;
+
+}
+
+footer{
+  position:absolute;
+  bottom: 0%;
+}
+
+h1{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+body {
+  margin: 0;
+  margin-bottom: 60px;
+font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+color: whitesmoke;
+  background-color: #080808;
+}
+
+.form-floating > .form-control-plaintext::placeholder, .form-floating > .form-control::placeholder {
+  color: var(--bs-secondary-color);
+  text-align: end;
+}
+
+.form-floating > .form-control-plaintext:focus::placeholder, .form-floating > .form-control:focus::placeholder {
+  text-align: start;
+}
+
+

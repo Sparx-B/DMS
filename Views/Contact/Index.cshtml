@@ -1,0 +1,50 @@
+@{
+    ViewData["Title"] = "Contact Page";
+}
+
+
+<div class="mt-5">
+    <h1>Contact Me</h1>
+    <form action="https://api.web3forms.com/submit" method="POST" >
+
+    <input type="hidden" name="access_key" value="880794">
+
+        <div class="mb-3">
+            <label for="name" class="form-label">Name</label>
+            <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required>
+        </div>
+
+        <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input type="email" class="form-control" id="email" name="email" placeholder="Your Email" required>
+        </div>
+
+        <div class="mb-3">
+            <label for="message" class="form-label">Message</label>
+            <textarea class="form-control" id="message" name="message" rows="4" placeholder="Your Message" required></textarea>
+        </div>
+
+         <!-- Honeypot Spam Protection -->
+    <input type="checkbox" id="botcheck" name="botcheck" class="hidden" style="display: none;">
+
+        <button type="submit" class="btn btn-primary">Send Message</button>
+    </form>
+</div>
+
+
+
+<br></br>
+<div class="text-left">
+    <h1>Social Media handles</h1>
+    <br>
+    <!--
+    <a href="http://www.tiktok.com" ><img src="Images/TTlogo.jpg" height="50px" width="50px"></a><p></p>
+    -->
+  <a href="http://www.facebook.com" ><img src="Images/Flogo.jpg" height="50px" width="50px"></a><p>Philarh Malii Njilo</p>
+ <!-- <a href="http://www.x.com" ><img src="Images/Xlogo.jpg" height="50px" width="50px"></a><p></p> -->
+  <a href="http://www.instagram.com" ><img src="Images/IGlogo.jpg" height="50px" width="50px"></a><p>kaylomalii</p>
+    <a href="http://www.whatsapp.com" ><img src="Images/WAlogo.jpg" height="50px" width="50px"></a><p>0662361084</p>
+      <a href="http://www.gmail.com" ><img src="Images/Elogo.jpg" height="50px" width="50px"></a><p>killomalii@gmail.com</p>
+</div>
+
+
