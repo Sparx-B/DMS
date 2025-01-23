@@ -75,6 +75,7 @@ background-color: whitesmoke;
 .btn{
   background-color:#0437f2;
   outline: white;
+  cursor: pointer;
   
 }
 .btn-primary:hover{
