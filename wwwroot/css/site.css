@@ -80,6 +80,7 @@ background-color: whitesmoke;
 .btn-primary:hover{
   color: black;
   background-color:whitesmoke;
+  cursor: pointer;
 
 }
 
